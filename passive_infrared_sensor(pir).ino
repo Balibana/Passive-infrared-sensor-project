@@ -30,7 +30,7 @@ void loop(){
     digitalWrite(positive, HIGH);
     digitalWrite(negative, LOW);
     
-    Serial.print("Michel Passe");
+    Serial.println("Michel Passe");
   
   }
   
@@ -39,7 +39,7 @@ void loop(){
     digitalWrite(negative, HIGH);
     digitalWrite(led,LOW);
     digitalWrite(piezo, LOW);
-    Serial.print("Michel Ne passe pas");
+    Serial.println("Michel Ne passe pas");
   
   }
 
